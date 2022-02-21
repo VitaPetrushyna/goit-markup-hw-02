@@ -1,0 +1,88 @@
+/* основной цвет заголовков color: #212121;
+основной цвет параграфов color: #757575;
+цвет заголовка h1 color: белый #FFFFFF;
+цвет кнопок синий #2196F3; серый #F5F4FA;
+цвет фона футера и цвет главного заголовка color-background: #2F303A
+ */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+/* Logo */
+.logo {
+  color: var(--accent-color);
+}
+.colortext {
+  color: var(--title-text-color);
+}
+
+/* Site nav */
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Contact nav */
+.contact-nav a {
+  color: var(--primary-text-color);
+}
+.contact-nav a:hover,
+.contact-nava:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-bg-color);
+}
+/* Button */
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Title styling */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Skils */
+.skills .title {
+  color: var(--title-text-color);
+}
+
+/* Images */
+
+/* Team */
+.team .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.adress {
+  color: var(--primary-bg-color);
+}
+.contact-footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-footer {
+  background-color: #2f303a;
+}
+.section-footer .colortext {
+  color: var(--primary-bg-color);
+}
