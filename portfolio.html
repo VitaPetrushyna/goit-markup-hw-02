@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка сайта-->
     <header>
-      <a href="">WebStudio</a>
+      <a href="" class="logo">Web<span class="colortext">Studio</span></a>
       <!--<Блок навигации-->
       <nav>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <!--Блок контактов-->
-      <ul>
+      <ul class="contact-nav list">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
@@ -27,125 +34,131 @@
     <!--Контент страницы-->
     <main>
       <!--Фильтр проектов-->
-      <section>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="buttons-section">
+        <ul class="buttons-list list">
+          <li class="buttons-btn"><button type="button">Все</button></li>
+          <li class="buttons-btn"><button type="button">Веб-сайты</button></li>
+          <li class="buttons-btn"><button type="button">Приложения</button></li>
+          <li class="buttons-btn"><button type="button">Дизайн</button></li>
+          <li class="buttons-btn"><button type="button">Маркетинг</button></li>
         </ul>
       </section>
       <!--Проекты компании-->
-      <section>
-        <ul>
-          <li>
+      <section class="projects-section">
+        <h1>Проекты компании</h1>
+        <ul class="projects-list list">
+          <li class="projects-item">
             <img
               src="./images/img-1-2.jpg"
               alt="монитор ноутбука"
               width="370"
               height="294"
             />
-            <h3>Технокряк</h3>
+            <h3 class="projects-section-title">Технокряк</h3>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-2-2.jpg"
               alt="баскетболисты"
               width="370"
               height="294"
             />
-            <h3>Постер New Orlean vs Golden Star</h3>
+            <h3 class="projects-section-title">
+              Постер New Orlean vs Golden Star
+            </h3>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-3-2.jpg"
               alt="логотип ресторана"
               width="370"
               height="294"
             />
-            <h3>Ресторан Seafood</h3>
+            <h3 class="projects-section-title">Ресторан Seafood</h3>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-4-2.jpg"
               alt="наушники"
               width="370"
               height="294"
             />
-            <h3>Проект Prime</h3>
+            <h3 class="projects-section-title">Проект Prime</h3>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-5-2.jpg"
               alt="коробки"
               width="370"
               height="294"
             />
-            <h3>Проект Boxes</h3>
+            <h3 class="projects-section-title">Проект Boxes</h3>
             <p>Приложение</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-6-2.jpg"
               alt="монитор"
               width="370"
               height="294"
             />
-            <h3>Inspiration has no Borders</h3>
+            <h3 class="projects-section-title">Inspiration has no Borders</h3>
             <p>Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-7-2.jpg"
               alt="журнал"
               width="370"
               height="294"
             />
-            <h3>Издание Limited Edition</h3>
+            <h3 class="projects-section-title">Издание Limited Edition</h3>
             <p>Дизайн</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-8-2.jpg"
               alt="бирка"
               width="370"
               height="294"
             />
-            <h3>Проект LAB</h3>
+            <h3 class="projects-section-title">Проект LAB</h3>
             <p>Маркетинг</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/img-9-2.jpg"
               alt="человек печатает"
               width="370"
               height="294"
             />
-            <h3>Growing Business</h3>
+            <h3 class="projects-section-title">Growing Business</h3>
             <p>Приложение</p>
           </li>
         </ul>
       </section>
     </main>
-    ```
 
     <footer>
-      <!--Блок контактов-->
-      <a href="">WebStudio</a>
-      <address>
-        <a href="https://goo.gl/maps/7qp37BieYdtHUAUU6" target="_blank"
-          >г. Киев, пр-т Леси Украинки, 26
-        </a>
-      </address>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="section-footer">
+        <a href="" class="logo">Web<span class="colortext">Studio</span></a>
+        <address>
+          <a
+            href="https://goo.gl/maps/7qp37BieYdtHUAUU6"
+            target="_blank"
+            class="adress"
+            >г. Киев, пр-т Леси Украинки, 26
+          </a>
+        </address>
+        <ul class="contact-footer list">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
