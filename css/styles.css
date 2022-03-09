@@ -15,6 +15,7 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -22,7 +23,12 @@ body {
 /* Logo */
 .logo {
   color: var(--accent-color);
+
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .colortext {
   color: var(--title-text-color);
@@ -32,6 +38,12 @@ body {
 /* Site nav */
 .site-nav a {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -43,30 +55,70 @@ body {
 /* Contact nav */
 .contact-nav a {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-nav a:hover,
-.contact-nava:focus {
+.contact-nav a:focus {
   color: var(--accent-color);
 }
 
 /* Hero */
+.hero {
+  background-color: var(--title-text-color);
+}
 .hero-title {
   color: var(--primary-bg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* Button */
 .button {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /* Title styling */
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Skils */
 .skills .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.skills-text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Images */
@@ -74,14 +126,31 @@ body {
 /* Team */
 .team .title {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* Footer */
 .adress {
   color: var(--primary-bg-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .contact-footer a {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
 }
 .section-footer {
   background-color: #2f303a;
@@ -91,8 +160,27 @@ body {
 }
 
 /* Portfolio page */
-/* Projects section */
+/* Project-filter */
+.buttons-btn:hover,
+.buttons-btn:focus {
+  background-color: var(--accent-color);
+  color: white;
+
+  cursor: pointer;
+}
+
+/* Projects section buttons-list li button */
 
 .projects-section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-section-text {
+  font-size: 16px;
+  line-height: 1.88;
 }
