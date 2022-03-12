@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,37 +16,57 @@
   <body>
     <!--Шапка сайта-->
     <header>
-      <a href="" class="logo">Web<span class="colortext">Studio</span></a>
+      <a href="" class="logo">Web<span class="color-text">Studio</span></a>
       <!--<Блок навигации-->
       <nav>
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li><a href="./index.html" class="site-nav-link">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="site-nav-link current"
+              >Портфолио</a
+            >
+          </li>
+          <li><a href="" class="site-nav-link">Контакты</a></li>
         </ul>
       </nav>
       <!--Блок контактов-->
       <ul class="contact-nav list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-nav-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact-nav-link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <!--Контент страницы-->
     <main>
       <!--Фильтр проектов-->
       <section class="buttons-section">
-        <h1>Фильтр проектов</h1>
+        <h1 hidden="true">Фильтр проектов</h1>
         <ul class="buttons-list list">
-          <li><button type="button" class="buttons-btn">Все</button></li>
-          <li><button type="button" class="buttons-btn">Веб-сайты</button></li>
-          <li><button type="button" class="buttons-btn">Приложения</button></li>
-          <li><button type="button" class="buttons-btn">Дизайн</button></li>
-          <li><button type="button" class="buttons-btn">Маркетинг</button></li>
+          <li>
+            <button type="button" class="buttons-btn current">Все</button>
+          </li>
+          <li>
+            <button type="button" class="buttons-btn current">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="buttons-btn current">
+              Приложения
+            </button>
+          </li>
+          <li>
+            <button type="button" class="buttons-btn current">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="buttons-btn current">Маркетинг</button>
+          </li>
         </ul>
-      </section>
-      <!--Проекты компании-->
-      <section class="projects-section">
-        <h2>Проекты компании</h2>
         <ul class="projects-list list">
           <li class="projects-item">
             <img
@@ -154,11 +174,19 @@
             class="adress"
             >г. Киев, пр-т Леси Украинки, 26
           </a>
+          <ul class="contact-footer list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-footer-list"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380961111111" class="contact-footer-list"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
         </address>
-        <ul class="contact-footer list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
       </div>
     </footer>
   </body>
